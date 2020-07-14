@@ -1,0 +1,83 @@
+body{
+    background: #1d4263;
+}
+.mainCls{
+    float:left;
+}
+.recharts-sector{
+    padding:10px;
+}
+.recharts-wrapper{
+    margin-right:30px;
+}
+
+svg text {
+    font-family: sans-serif;
+}
+#circleChart {
+    width: 130px;
+    display: inline-block;
+    background: blue;
+}
+.label {
+    position: relative;
+    width: 80px;
+    text-align: center;
+    font-family: sans-serif;
+}
+.label .icon {
+    top: -67px;
+    left: 13px;
+    position: absolute;
+    width: 53px;
+    height: 53px;
+    margin-left: auto;
+    margin-right: auto;
+    
+    border-radius: 57px;
+    
+}
+.green{
+    background-color: #008000;
+    background-image: linear-gradient(#90ee90,#008000);
+}
+.red{
+    background-color: #f92f2f;
+    background-image: linear-gradient(#fcb0b0,#f92f2f);
+}
+.orange{
+    background-color: #ffa500;
+    background-image: linear-gradient(#e4c387,#ffa500);
+}
+.white{
+    background-color: #ffffff;
+    background-image: linear-gradient(#ffffff,#ffffff);
+    color:#cccccc;
+}
+.label .value {
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: bold;
+}
+.label .name {
+    color: #ffffff;
+    font-size: 12px;
+}
+.name.fontBlack, .value.fontBlack{
+    color:#000000;
+}
+.valueText{
+    position: absolute;
+    top: 13px;
+    left: 18px;
+    text-align: center;
+}
+.valueText:hover{
+   cursor: pointer;
+}
+.pieTitle{
+    text-align: center;
+    color: #ffffff;
+    margin-right: 30px;
+}
+
